@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+#banner {
+  background: linear-gradient(#B76CA4, #714F91);
+  min-height: 91vh;
+  margin-top: 70px;
+  padding: 0;
+  margin-right: -15px;
+}
+
+#phoneImg {
+  height: 40vw;
+  min-height: 50px;
+  margin-left: -10vw;
+  margin-top: 3vw;
+  margin-bottom: 5vw;
+}
+
+#textCol {
+  margin-top: 13vw;
+  color: white;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  /* height: 85vw; */
+}
+
+.storeButton {
+  margin: 5px;
+  background-color: #B76CA4 !important;
+  border: 1px solid #B76CA4 !important;
+}
+
+.storeButton:hover {
+  background-color: #714F91 !important;
+  border: 1px solid	#714F91 !important;
+}
+
+#wheel {
+  background: linear-gradient(#6BC8CD, #167CA4);
+  min-height: 91vh;
+  margin-right: -15px;
+  /* height: 90vh; */
+}
+
+#partners {
+  background: linear-gradient(#FDCF0A, #EC7C30);
+  min-height: 91vh;
+  margin-right: -15px;
+  /* height: 90vh; */
+}
+
+#footer {
+  height: 50px;
+  background-color: #B76CA4;
+  margin-right: -15px;
+  padding-left: 35%;
+  margin-bottom: -5px;
+  padding-bottom: 0;
+}
+
+.partnerimg {
+  margin: 40px 10px 40px 10px;
+
+}
+
+#partnertext {
+  margin: 8vw;
+  overflow: scroll;
+  color: white;
+}
+
+.social {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  margin-right: 0;
+  background-color: white;
+  padding-top: 3px;
+  color: #167CA4;
+}
+
+.asocial {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  float: left;
+}
