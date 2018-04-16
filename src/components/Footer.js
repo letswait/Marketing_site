@@ -10,8 +10,8 @@ export default class Footer extends Component {
                         <a className="asocial" href="https://twitter.com/letswaitdating"><div className="social"><i className="fab fa-twitter"></i></div></a>
                 </div>
                 <div>
-                    <p style={{width: '450px', paddingTop: '12px', marginLeft: '-20px', color: '#fff'}}><a style={{color: '#fff'}} href="#">Contact</a> / <a style={{color: '#fff'}} href="#">Privacy</a> / <a style={{color: '#fff'}} href="#">Press</a> <br /></p>
-                    <p style={{color: '#fff', width: '450px', marginLeft: '-40px', marginBottom: '0'}}>&copy; LetsWait 2018, All Rights Reserved.</p>
+                    <p style={{width: '450px', paddingTop: '12px', marginLeft: '-70px', color: '#fff'}}><a style={{color: '#fff'}} href="#">Contact</a> / <a style={{color: '#fff'}} href="#">Privacy</a> / <a style={{color: '#fff'}} href="#">Press</a> <br /></p>
+                    <p style={{color: '#fff', width: '450px', marginLeft: '-50px', marginBottom: '0'}}>&copy; LetsWait 2018, All Rights Reserved.</p>
                 </div>
             </div>
         )
