@@ -12,8 +12,8 @@ export default class Banner extends Component {
                     <div id="textCol" className="col-sm">
                         <h1>GREAT THINGS COME <br /> TO THOSE WHO WAIT <br /></h1>
                         <p> Cat ipsum dolor sit amet, cats secretly make all the worlds muffins i can haz.Asdflkjaertvlkjasntvkjn (sits on keyboard) hunt by meowing loudly at 5am next to human slave food dispenser it's 3am, time to create some chaos yet lick arm hair leave fur on owners clothes fooled again thinking the dog likes me.</p>
-                        <Button className="storeButton">Google Play</Button>
-                        <Button className="storeButton">App Store</Button>
+                        <Button className="storeButton"><i class="fab fa-google-play"></i>&nbsp;Google Play</Button>
+                        <Button className="storeButton"><i class="fab fa-app-store-ios"></i>&nbsp;App Store</Button>
                     </div>
                     <div className="col-sm">
                         <img id="phoneImg" src={phone} />
