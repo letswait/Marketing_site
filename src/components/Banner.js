@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import phone from '../assets/images/phone.png'
+import phone from '../assets/images/LetsWait-phone.png'
 import {
     Button
   } from 'reactstrap';
