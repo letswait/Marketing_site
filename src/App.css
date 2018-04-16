@@ -78,7 +78,7 @@
 }
 
 #footer {
-  height: 50px;
+  height: 80px;
   background-color: #B76CA4;
   margin-right: -15px;
   padding-left: 35%;
@@ -114,4 +114,19 @@
   height: 30px;
   margin: 5px;
   float: left;
+}
+
+#linkfooter {
+  width: '450px';
+  padding-top: '12px';
+  margin-left: '0';
+  color: '#fff';
+}
+
+#linkfooter:a {
+  color: '#fff'
+}
+
+#copyfooter {
+  color: "#fff"
 }
