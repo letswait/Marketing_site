@@ -19,12 +19,12 @@ export default class Partners extends Component {
             <div id="partners">
                 <div className="row">
                     <div id="partnertext" className="col-sm">
-                        <h1>FEATURED PARTNERS</h1>
+                        <h1 style={{color: '#714F91'}}>FEATURED PARTNERS</h1>
+                        <h3 style={{color: '#B76CA4'}}>And this is just the start.</h3>
                         {
                             this.state.images.map((image, index) => <img key={index} className="partnerimg" src={image} height="150px"/>)
                         }
-                        <p> Cat ipsum dolor sit amet, cats secretly make all the worlds muffins i can haz.Asdflkjaertvlkjasntvkjn (sits on keyboard) hunt by meowing loudly at 5am next to human slave food dispenser it's 3am, time to create some chaos yet lick arm hair leave fur on owners clothes fooled again thinking the dog likes me.</p>
-                    </div>
+                         </div>
                 </div>
             </div>
         )

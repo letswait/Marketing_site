@@ -6,13 +6,21 @@ export default class Wheel extends Component {
         return (
             <div id="wheel">
                 <div className="row">
-                    <div className="col-sm">
+                    <div className="col-sm-12 col-md-4">
                         <WheelComponent />
                     </div>
-                    <div id="textCol" className="col-sm">
-                        <h1> THE WHEEL </h1>
-                        <p> Cat ipsum dolor sit amet, cats secretly make all the worlds muffins i can haz.Asdflkjaertvlkjasntvkjn (sits on keyboard) hunt by meowing loudly at 5am next to human slave food dispenser it's 3am, time to create some chaos yet lick arm hair leave fur on owners clothes fooled again thinking the dog likes me.</p>
-                    </div>
+                    <div id="textCol" style={{marginTop: '6vw'}} className="col-sm-12 col-md-8">
+                        <h1 style={{color: '#714F91'}}> THE WHEEL </h1>
+                        <h3 style={{color: '#B76CA4'}}>Dating is expensive. LetsWait can help. </h3>
+                        <p style={{color: '#6f6e6d', fontSize: '18px'}}>Unlike other high-moral dating apps, LetsWait is free.<br /><br />
+The wheel is a tool to help remove the pressure of deciding where to go
+and how to pay. We have developed exclusive relationships with local
+restaurants and entertainment venues to help jumpstart your date. <br /><br />
+When a match occurs, you are allowed to spin the wheel once. Each
+person receives half of a coupon code for a date experience with one
+of our featured partners. The codes must be presented together within
+a week to redeem. </p>
+                        </div>
                 </div>
             </div>
         )

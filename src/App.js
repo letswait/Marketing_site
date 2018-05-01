@@ -6,6 +6,7 @@ import Banner from './components/Banner';
 import Wheel from './components/Wheel';
 import Footer from './components/Footer'
 import Partners from './components/Partners'
+import Text from './components/Text'
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <Banner />
         <Wheel />
         <Partners />
+        <Text />
         <Footer />
       </div>
     );

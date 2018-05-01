@@ -30,7 +30,7 @@
 
 #banner {
   background: linear-gradient(#B76CA4, #714F91);
-  min-height: 91vh;
+  min-height: 60vh;
   margin-top: 70px;
   padding: 0;
   margin-right: -15px;
@@ -39,23 +39,28 @@
 #phoneImg {
   height: 40vw;
   min-height: 50px;
-  margin-left: -10vw;
   margin-top: 3vw;
-  margin-bottom: 5vw;
+  margin-bottom: 2vw;
+  margin-left: -12vw;
 }
 
 #textCol {
   margin-top: 13vw;
   color: white;
-  margin-left: 8vw;
-  margin-right: 8vw;
+  padding-left: 10vw;
+  text-align: left;
+  padding-right: 12vw;
   /* height: 85vw; */
 }
 
 .storeButton {
-  margin: 5px;
+  margin: 1vw 2vw 3vw 0;
   background-color: #B76CA4 !important;
   border: 1px solid #B76CA4 !important;
+  width: 200px;
+  height: 50px;
+  font-size: 20px !important;
+  padding: 20px;
 }
 
 .storeButton:hover {
@@ -64,55 +69,60 @@
 }
 
 #wheel {
-  background: linear-gradient(#6BC8CD, #167CA4);
-  min-height: 91vh;
+  background: #e6e6e6;
+  min-height: 60vh;
   margin-right: -15px;
+  padding-top: -35px;
   /* height: 90vh; */
 }
 
 #partners {
-  background: linear-gradient(#FDCF0A, #EC7C30);
-  min-height: 91vh;
+  background: white;
+  min-height: 30vh;
   margin-right: -15px;
   /* height: 90vh; */
 }
 
 #footer {
-  height: 80px;
-  background-color: #B76CA4;
+  height: 100px;
+  background-color: #714F91;
   margin-right: -15px;
-  padding-left: 35%;
   margin-bottom: -5px;
   padding-bottom: 0;
 }
 
 .partnerimg {
-  margin: 40px 10px 40px 10px;
-
+  margin: 20px 40px 20px 0px;
+  border: 2px solid rgba(192, 192, 192, 0.63);
+  border-radius: 50%;
+  width: 125px;
+  height: auto;
 }
 
 #partnertext {
-  margin: 8vw;
+  margin: 7vw 8vw 1vw 8vw;
   color: white;
+  text-align: left;
 }
 
 .social {
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 45px;
+  height: 45px;
   margin: 5px;
   margin-right: 0;
-  background-color: white;
-  padding-top: 3px;
+  background-color: #B76CA4;
   color: #167CA4;
 }
 
 .asocial {
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  margin: 5px;
-  float: left;
+  width: 45px;
+  height: 45px;
+  margin: .5vw 1vw 1vw 0;
+  float: right;
+  color: #714F91;
+  fill:  #714F91;
 }
 
 #linkfooter {
@@ -128,4 +138,14 @@
 
 #copyfooter {
   color: "#fff"
+}
+
+h1{
+  font-weight: 700 !important;
+  font-size: 72px !important;
+  margin-top: -60px !important;
+}
+
+#text {
+  background: #e6e6e6;
 }

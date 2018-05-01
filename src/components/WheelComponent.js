@@ -84,7 +84,7 @@ export default class WheelComponent extends React.Component {
         // };
         return(
 
-        <div style={{marginTop: '105px'}}>
+        <div style={{marginTop: '20px', marginBottom: '20px', marginLeft: '8vw'}}>
             <div id="ticker" style={styles.ticker}></div>
             <div >
                 {/* <Animation keyframes={this.getKeyFrames()}

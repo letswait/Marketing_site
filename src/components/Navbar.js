@@ -25,8 +25,8 @@ export default class Navbarr extends React.Component {
   render() {
     return (
       <div>
-        <Navbar className="fixed-top" light  expand="md" style={{backgroundColor: '#B76CA4'}}>
-          <NavbarBrand href="/"><img src={logo} height="50px"/></NavbarBrand>
+        <Navbar className="fixed-top" light  expand="md" style={{backgroundColor: '#714F91'}}>
+          <NavbarBrand href="/"><img src={logo} height="50px" style={{paddingLeft: '7vw'}}/></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
