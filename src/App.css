@@ -104,7 +104,7 @@
   color: white;
   text-align: left;
 }
-
+/* 
 .social {
   border-radius: 50%;
   width: 45px;
@@ -113,13 +113,13 @@
   margin-right: 0;
   background-color: #B76CA4;
   color: #167CA4;
-}
+} */
 
 .asocial {
   border-radius: 50%;
   width: 45px;
   height: 45px;
-  margin: .5vw 1vw 1vw 0;
+  margin: 1vw 2vw 1vw 1vw;
   float: right;
   color: #714F91;
   fill:  #714F91;

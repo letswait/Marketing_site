@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import logo from '../assets/images/horizlogo.png'
-import twitter from '../assets/images/Twitter.svg'
-import facebook from '../assets/images/Facebook.svg'
-import instagram from '../assets/images/Instagram.svg'
-import snapchat from '../assets/images/Snapchat.svg'
+import twitter from '../assets/images/twit.svg'
+import facebook from '../assets/images/facebookk.svg'
+import instagram from '../assets/images/insta.svg'
+import snapchat from '../assets/images/snap.svg'
+
 
 export default class Footer extends Component {
     render() {
@@ -22,7 +23,7 @@ export default class Footer extends Component {
                 </div>
                 <div className="row">
                     <div style={{textAlign: 'center',  width: '100%'}}>
-                        <p style={{ color: '#fff', marginBottom: '-15px' }}> &copy; LetsWait 2018, All Rights Reserved.&nbsp;<a style={{ color: '#fff' }} href="#">Contact</a> / <a style={{ color: '#fff' }} href="#">Privacy</a> / <a style={{ color: '#fff' }} href="#">Press</a></p>
+                        <p style={{ color: '#B76CA4', marginBottom: '-15px', fontSize: '10px' }}> &copy; LetsWait 2018, All Rights Reserved.&nbsp;<a style={{ color: '#B76CA4' }} href="#">Contact</a> / <a style={{ color: '#B76CA4' }} href="#">Privacy</a> / <a style={{ color: '#B76CA4' }} href="#">Press</a></p>
                     </div>
                 </div>
             </div>
