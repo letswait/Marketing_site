@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
-
+import React from 'react'
 import {
   Button
 } from 'reactstrap';
 
+// eslint-disable-next-line
 export default Text = () => {
     return (
       <div id="text">

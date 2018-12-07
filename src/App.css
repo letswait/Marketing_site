@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   font-family: 'Rubik', sans-serif;
+  width: 100%;
 }
 
 .App-logo {
@@ -104,16 +105,7 @@
   color: white;
   text-align: left;
 }
-/* 
-.social {
-  border-radius: 50%;
-  width: 45px;
-  height: 45px;
-  margin: 5px;
-  margin-right: 0;
-  background-color: #B76CA4;
-  color: #167CA4;
-} */
+
 
 .asocial {
   border-radius: 50%;
