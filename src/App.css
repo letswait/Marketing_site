@@ -147,6 +147,9 @@ h1{
   margin-right: 0 !important;
 }
 
+.emailMarketingInput{
+  width:50%
+}
 @media only screen and (max-width: 768px) {
   #banner {
     min-height: 70vh;
@@ -189,5 +192,11 @@ h1{
   #wheelIMG {
     margin-top:10%; 
     margin-left:2%;
+  }
+  .emailMarketingInput{
+    width:100%
+  }
+  #footerLogo {
+    height: 25px
   }
 }

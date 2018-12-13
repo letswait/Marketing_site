@@ -12,7 +12,7 @@ export default class Footer extends Component {
             <div id="footer" >
                 <div className="row">
                     <div className="col-sm-12 col-md-6 text-right">
-                        <img alt="main logo" src={logo} height="50px" style={{ paddingLeft: '7vw', marginTop: '1vw', float: 'left' }} />
+                        <img alt="main logo" src={logo} height="50px" id="footerLogo" style={{ paddingLeft: '7vw', marginTop: '1vw', float: 'left' }} />
                     </div>
                     <div className=" col-sm-12 col-md-6" style={{ paddingRight: '7vw' }}>
                         <a className="asocial" href="https://www.instagram.com/letswaitdatingapp/"><div className="social"><img alt="social media icon" src={instagram} /></div></a>

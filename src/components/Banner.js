@@ -42,7 +42,7 @@ our members to a higher standard and offsetting financial burdens.</p>
             {/* <Button className="storeButton"><i className="fab fa-google-play"></i>&nbsp;Google Play</Button>
             <Button className="storeButton"><i className="fab fa-app-store-ios"></i>&nbsp;App Store</Button> */}
             <Form onSubmit={this.handleSubmit}>
-              <Input bsSize="lg" style={{ width: "50%" }} type="email" name="email" id="exampleEmail" placeholder="sign up for updates..." value={this.state.email} onChange={this.handleChange} />
+              <Input bsSize="lg" type="email" name="email" className="emailMarketingInput" placeholder="sign up for updates..." value={this.state.email} onChange={this.handleChange} />
             </Form>
           </div>
           <div className="col-sm-12 col-md-2">
