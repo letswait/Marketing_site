@@ -29,11 +29,10 @@ export default class Partners extends Component {
                 <Col id="partnertext" xs="12">
                     <h1 style={{ color: '#714F91' }}>FEATURED PARTNERS</h1>
                     <h3 style={{ color: '#B76CA4' }}>And this is just the start.</h3>
-                    
+                    {
+                        this.state.images.map((image, index) => <img key={index} className="partnerimg" alt="partners" src={image} height="150px" />)
+                    }
                 </Col>
-                {
-                    this.state.images.map((image, index) => <img key={index} className="partnerimg" alt="partners" src={image} height="150px" />)
-                }
             </Col>
         )
     }

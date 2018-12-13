@@ -7,6 +7,7 @@
     "@fortawesome/fontawesome": "^1.1.5",
     "@fortawesome/react-fontawesome": "^0.0.18",
     "animated": "^0.2.2",
+    "axios": "^0.18.0",
     "bootstrap": "^4.1.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
@@ -25,5 +26,6 @@
   },
   "devDependencies": {
     "gh-pages": "^1.1.0"
-  }
+  },
+  "proxy": "https://lw-datingappapi.herokuapp.com/"
 }
