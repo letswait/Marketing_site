@@ -12,6 +12,14 @@ import blackAcre from '../assets/images/BlackAcre.jpg'
 import foxGardin from '../assets/images/FoxGardin.jpg'
 import paxVerum from '../assets/images/PaxVerum.png'
 
+
+import peaceWinery from '../assets/images/PeaceWinery.png'
+import pizzaology from '../assets/images/Pizzaology.jpg'
+import prime47 from '../assets/images/Prime47.jpg'
+import twoDeep from '../assets/images/TwoDeep.jpg'
+import wineMarket from '../assets/images/WineMarket.png'
+
+
 import {
     Col
 } from 'reactstrap';
@@ -20,7 +28,7 @@ export default class Partners extends Component {
     constructor() {
         super()
         this.state = {
-            images: [topgolf, ale, brixx, dave, della, mortys, pinheads, den, blindOwl, blackAcre, foxGardin, paxVerum]
+            images: [topgolf, ale, brixx, dave, della, mortys, pinheads, den, blindOwl, blackAcre, foxGardin, paxVerum, prime47, twoDeep]
         }
     }
     render() {
